@@ -14,10 +14,16 @@
 - docker-compose.yml ----> arquivo auxiliar para mapear portas e comandos Python.
 
 ### Gerando a imagem
-- docker build -t nome_do_responsavel/nome_da_imagem:versao_da_imagem .
+<pre>
+docker build -t nome_do_responsavel/nome_da_imagem:versao_da_imagem .
+</pre>
 
 ### Ativando a imagem
-- docker run --name some-django-app -d my-django-app
+<pre>
+docker run --name some-django-app -d my-django-app
+</pre>
 
 ### Rodando o app Django com Docker 
-- docker-compose up -d --build
+<pre>
+docker-compose up -d --build
+</pre>

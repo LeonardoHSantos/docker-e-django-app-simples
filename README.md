@@ -15,15 +15,21 @@
 
 ### Gerando a imagem
 <pre>
+<code>
 docker build -t nome_do_responsavel/nome_da_imagem:versao_da_imagem .
+</code>
 </pre>
 
 ### Ativando a imagem
 <pre>
+<code>
 docker run --name some-django-app -d my-django-app
+</code>
 </pre>
 
 ### Rodando o app Django com Docker 
 <pre>
+<code>
 docker-compose up -d --build
+</code>
 </pre>
